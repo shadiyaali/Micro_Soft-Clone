@@ -1,0 +1,605 @@
+HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicrosoftClone</title>
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css" integrity="sha512-FEQLazq9ecqLN5T6wWq26hCZf7kPqUbFC9vsHNbXMJtSZZWAcbJspT+/NEAQkBfFReZ8r9QlA9JHaAuo28MTJA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+<body>
+    <!-- this is the full structure -->
+    <div class="bodystyle">
+
+
+
+<!-- navigation bar starts here -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img  class="logostyle"  src="images/logo.png" >
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Microsoft 365</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Teams</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Windows</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Surface</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Xbox</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">All Microsoft <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                      <img class="search-icon" src="images/search_black_24dp.svg">
+                       <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                      <img class="shopping-icon" src="images/shopping_cart_black_24dp.svg">
+                       <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                      <img class="account-icon" src="images/account_circle_black_24dp.svg">
+                       <span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+              </form>
+              
+            </div>
+          </nav>
+          <!-- navigation bar ends here -->
+
+          <!-- corousel starts here  -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" style="height: 550px;">
+              <div class="carousel-item active">
+                <img class="bgimage" src="images/bgimage1.webp" alt="First slide">
+                <div class="carousel-caption">
+                  <h3>Surface Laptop<br> Studio</h3>
+                  <p>Flex your creative mode on the most powerful <br>Surface Laptop.Now available with windows 11 </p>
+                  <button>Shop now> </button>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <img class="bgimage" src="images/bgimage2.avif" alt="Second slide">
+              <div class="carousel-caption">
+                <h3>Microsoft 365</h3>
+                <p>Premium Office apps, extra cloud storage,<br> advanced security, and more  all in one<br> convenient subscription</p>
+              </div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- corousel ends here -->
+
+    <!-- 4 cards starts here -->
+    <main>
+      <div class="">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="images/card1.jfif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Surface Laptop Go 2</h5>
+                  <p class="card-text">A sleek laptop with a 12.4-inch touchscreen,great typing experience and improved HD camera </p>
+                  <a href="#" class=""> Learn more > </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="images/card2.avif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Surface Laptop 4</h5>
+                  <p class="card-text">Do it all with a perfect balance of sleek, ultra-thin design, multitasking speed and improved performance.</p>
+                  <a href="#" class=""> Shop now > </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="images/card3.avif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">PC Game Pass</h5>
+                  <p class="card-text">Unlock 100+ great games and EA Play, plus get your first month for ₹50. Offer available to new subscribers only. </p>
+                  <a href="#" class=""> join now > </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="images/card4.avif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Designed for life today – <br> and tomorrow</h5>
+                  <p class="card-text">The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love. </p>
+                  <a href="#" class=""> See if your PC is ready > </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  <!-- 4 cards ends here -->
+
+<!-- edge picture starts here -->
+
+<section class="msedge">
+  <div>
+    <div class="edge-image">
+      <img class="edimage" src="images/edgepic.avif" alt="First slide">
+      <div class="edge-caption">
+        <h3>Microsoft Edge</h3>
+        <p>World-class performance with more privacy,more <br>productivity and more value while you browse </p>
+        <button>Download now</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- edge pic ends here -->
+
+<!-- 4 card set 2 starts here -->
+<main>
+  <div class="">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-12">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="images/card5.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Surface Laptop Go 2 for Business</h5>
+              <p class="card-text">A sleek, portable laptop featuring a great typing experience, Windows 11 Pro and professional-grade performance. </p>
+              <a href="#" class=""> Learn more > </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="images/card6.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Get Microsoft Teams for free</h5>
+              <p class="card-text">Online meetings, chat and shared cloud storage – all in one place.</p>
+              <a href="#" class=""> Sign up for free > </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="images/card7.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Microsoft 365 for business</h5>
+              <p class="card-text">Stay a step ahead with powerful apps for productivity, connection and security.</p>
+              <a href="#" class=""> Shop now > </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="images/card6.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Windows 11 for business is here</h5>
+              <p class="card-text">Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.</p>
+              <a href="#" class=""> Learn more > </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- 4 card set 2 ends here -->
+
+<section class="socialmedia ss">
+  <div class="row " >
+    <div class="col-lg-2" style="font-size: 18px;" > 
+      Follow 
+    </div>
+    <div class="col-lg-1 sociallogo">
+      <a href="https://www.facebook.com/MicrosoftIndia">
+        <img src="images/Facebook.avif">
+      </a>
+       
+    </div>
+    <div class="col-lg-1 sociallogo">
+      <a href="https://www.facebook.com/MicrosoftIndia">
+        <img src="images/Twitter.webp">
+      </a>
+       
+    </div>
+    <div class="col-lg-1 sociallogo">
+      <a href="https://www.facebook.com/MicrosoftIndia">
+        <img src="images/YouTube.webp">
+      </a>
+       
+    </div>
+
+  </div>
+</section>
+
+
+
+    </div>
+
+
+<footer>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-2">
+      <p>What's New</p>
+      <ul>
+        <li><a href="#">Microsoft 365</a></li>
+        <li><a href="#">Surface Pro x</a></li>
+        <li><a href="#">Surface Pro 7</a></li>
+        <li><a href="#">Surface Laptop 3</a></li>
+        <li><a href="#">Windows 11 apps</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <p>Microsoft Store</p>
+      <ul>
+        <li><a href="#">Account profile</a></li>
+        <li><a href="#">Download Center</a></li>
+        <li><a href="#">Microsoft Store Support</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Order Tracking</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <p>Education</p>
+      <ul>
+        <li><a href="#">Microsoft in education</a></li>
+        <li><a href="#">Devices for education</a></li>
+        <li><a href="#">Teams for Education</a></li>
+        <li><a href="#">Microsoft 356 Education</a></li>
+        <li><a href="#">Office Education</a></li>
+        <li><a href="#">Educator training and development</a></li>
+        <li><a href="#"> Deals for students and parents</a></li>
+        <li><a href="#">Azure for students</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <p>Business</p>
+      <ul>
+        <li><a href="#">Microsoft Cloud</a></li>
+        <li><a href="#">Microsoft Security</a></li>
+        <li><a href="#">Azure</a></li>
+        <li><a href="#">Dynamics 365</a></li>
+        <li><a href="#">Microsoft Advertising </a></li>
+        <li><a href="#">Microsoft Industry</a></li>
+        <li><a href="#">Microsoft Teams</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <p>Developer & IT</p>
+      <ul>
+        <li><a href="#">Developer Center</a></li>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">Microsoft Learn</a></li>
+        <li><a href="#">Microsoft Tech Community</a></li>
+        <li><a href="#">Azure Marketplace</a></li>
+        <li><a href="#">AppSource</a></li>
+        <li><a href="#">Microsoft Power Platform</a></li>
+        <li><a href="#">Visual Studio</a></li>
+
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <p>Company</p>
+      <ul>
+        <li><a href="#"> Careers</a></li>
+        <li><a href="#">About Microsoft</a></li>
+        <li><a href="#">Company news</a></li>
+        <li><a href="#">Privacy at Microsoft</a></li>
+        <li><a href="#">Investors</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Sustainability</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 footerlang">
+      <p>English(India)</p>
+    </div>
+    <div class="col-lg-8 col-12 footerbtnmenu">
+      <div>
+        <p>Contact Microsoft</p>
+      </div>
+      <div>
+        <p>Privacy</p>
+      </div>
+      <div>
+        <p>Terms of use</p>
+      </div>
+      <div>
+        <p>Trademarks</p>
+      </div>
+      <div>
+        <p>About Ads</p>
+      </div>
+      <div>
+        <p>Microsoft 2022</p>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+CSS
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+
+
+
+}
+
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logostyle{
+    height: 25px;
+
+}
+
+.account-icon{
+    color: gray;
+
+}
+.shopping-icon{
+    color: gray;
+}
+.search-icon{
+    color: gray;
+}
+.bgimage{
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position:absolute;
+    top: 8%;
+    left: 7%!important;
+    color: black;
+
+}
+
+.carousel-caption h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.carousel-caption h3{
+    text-align: left;
+    color: black;
+}
+.carousel-caption p{
+    text-align: left;
+    color: black;
+}
+
+.carousel-caption button{
+    color: white;
+    background-color: rgb(7, 7, 241);
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+
+}
+
+main{
+    margin: 40px 0;
+
+}
+.card{
+    border: none !important;
+
+}
+.card-body{
+    padding: 5px 0;
+}
+
+
+/* .carousel-item{
+    align-items: flex-start;
+} */
+
+
+.card-img-top{
+    height: 170px;
+}
+
+.card-body h5{
+
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+
+.edimage{
+    width: 100%;
+    height: 500px;
+    margin: 9px 0 40px 0;
+    
+}
+
+.edge-image{
+    position: relative;
+}
+.edge-caption{
+    position:absolute;
+    top: 25%;
+    left: 3%!important;
+    color: black;
+    background-color: white;
+    background-size: 300px 300px;
+    padding: 0 45px 70px 45px ;
+
+}
+
+.edge-caption button{
+    color: white;
+    background-color: rgba(49, 49, 239, 0.921);
+    font-size: 15px;
+    border: none;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.edge-caption h3{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+.edge-caption p{
+    padding-top: 20px;
+
+}
+
+.socialmedia{
+    margin-bottom: 50px;
+}
+
+
+.ss{
+    /* background-color: aqua; */
+    margin: 0;
+    padding-bottom: 30px;;
+    display: flex;
+}
+
+.sociallogo img{
+    padding-left: 25px;
+    width: 50px;
+}
+
+footer{
+    background: #f2f2f2;
+    padding: 50px 0;
+}
+
+footer li{
+    list-style: none;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #818181;
+}
+
+.footerbtnmenu{
+    padding-top: 20px;
+    color: #818181;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlang{
+    padding-top: 20px;
+    color: #818181;
+
+}
+
+
+ 
